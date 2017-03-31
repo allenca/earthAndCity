@@ -45,8 +45,8 @@ Header
           <div class="navbar-header">
 
             <!-- button to collapse and display mobile-only menu -->
-            <!-- <form action="/banner.php"> -->
-              <button type="button" class="navbar-toggle collapsed menuIcon" data-toggle="collapse" data-target=".displayMobileMenu">
+            
+              <button type="button" class="navbar-toggle collapsed menuIcon" data-toggle="collapse .displayMobileMenu" data-target=".displayMobileMenu">
 
                 <span class="sr-only"><?= __('Toggle navigation', 'sage'); ?></span>
                 <span class="icon-bar"></span>
@@ -86,7 +86,7 @@ Header
 
           <!-- navbar for mobile -->
 
-          <!-- <nav id="mobile-navigation" class="navbar-collapse main-navigation hidden-md-up displayMobileMenu collapse" role="navigation"> -->
+          <nav id="mobile-navigation" class="navbar-collapse main-navigation hidden-md-up displayMobileMenu collapse mobileSlideOutNav" role="navigation">
 
               <!-- <?php
               wp_nav_menu( array(
@@ -101,7 +101,7 @@ Header
                 'walker'            => new WP_Bootstrap_Navwalker()
                 ));
               ?> -->
-            <!-- </nav> -->
+            </nav>
         </div>
       </header>
 

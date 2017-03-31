@@ -61,11 +61,14 @@
 		}
 	}
 }
-
+#bs-example-navbar-collapse-1{
+	width:100%;
+}
 .nav.navbar-nav{
 	display: flex;
 	flex-direction: row;
 	color:white;
+	justify-content: space-between;
 }
 
 .main-navigation ul li a{
@@ -76,7 +79,9 @@
 	display:none;
 }
 
-
+#mobile-navigation{
+	
+}
 
 /********** mobile menu button specific styling **********/
 
@@ -91,6 +96,12 @@
     display: block;
     border: none;
 }
+
+.mobileSlideOutNav{
+	display:flex;
+	justify-content: space-between;
+}
+
 
 
 /********** desktop styling **********/
